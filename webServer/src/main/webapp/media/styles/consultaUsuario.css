@@ -1,0 +1,75 @@
+#userContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgUser {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.usuario-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.registrosUl {
+    text-align: left;
+}
+
+.headerTexts h3 {
+    text-align: left;
+}
+
+.avatar-img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 690px) {
+    #consultaDeUsuarioContainer {
+        width: 95%;
+        min-width: 0;
+    }
+}
+
+.registrosUl {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.edicion-item {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.edicion-item:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+}
+
+.registro-item {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.registro-item:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+}

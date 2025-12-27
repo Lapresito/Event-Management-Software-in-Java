@@ -1,0 +1,19 @@
+#usersContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.card {
+    max-width: 220px;
+    transition: transform 0.2s;
+    width: 14rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

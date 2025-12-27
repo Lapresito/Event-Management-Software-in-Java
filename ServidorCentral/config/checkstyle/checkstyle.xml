@@ -1,0 +1,41 @@
+<module name="Checker">
+
+    <!-- Evita imports con '*' -->
+    <module name="AvoidStarImport"/>
+
+    <!-- Bloques catch vacíos -->
+    <module name="EmptyCatchBlock"/>
+
+    <!-- Espacios en blanco genéricos -->
+    <module name="GenericWhitespace"/>
+
+    <!-- Captura de excepciones ilegales -->
+    <module name="IllegalCatch"/>
+
+    <!-- Llaves finales de bloques -->
+    <module name="RightCurly">
+        <property name="option" value="same"/>
+    </module>
+
+    <!-- Nombres de miembros (variables) -->
+    <module name="MemberName"/>
+
+    <!-- Nombres de métodos -->
+    <module name="MethodName"/>
+
+    <!-- Espacios en parámetros de métodos -->
+    <module name="MethodParamPad"/>
+
+    <!-- Paréntesis innecesarios -->
+    <module name="UnnecessaryParentheses"/>
+
+    <!-- Imports no usados -->
+    <module name="UnusedImports"/>
+
+    <!-- Modificadores de visibilidad -->
+    <module name="VisibilityModifier"/>
+
+    <!-- Espacios después de tokens específicos -->
+    <module name="WhitespaceAfter"/>
+
+</module>
